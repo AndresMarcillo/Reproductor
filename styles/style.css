@@ -1,0 +1,87 @@
+/* Common */
+*{ box-sizing: border-box;}
+
+html, body{
+    height: 100%;
+}
+
+body{
+    font-family: sans-serif;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Player */
+.player{
+    min-width: 320px;
+    background-image: linear-gradient( black, gray);
+    border-radius: 1rem;
+    padding: 2rem;
+    color: white;
+    box-shadow: 2px 2px 3px black;
+}
+
+/* Title */
+.title{
+    margin-top: 0;
+    text-align: center;
+}
+/* Cover */
+.cover{
+    width: 200px;
+    height: auto;
+    border-radius: .3rem;
+    display: block;
+    margin: 0 auto 1rem auto;
+}
+/* Progress */
+.progress-container{
+    height: .5rem;
+    background-color: lightgray;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.progress{
+    background-color: goldenrod;
+    width: 0;
+    height: 100%;
+}
+/* Controls */
+.controls{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.controls button{
+    background-color: transparent;
+    border: none;
+}
+
+.controls i{
+    font-size: 1.7rem;
+    color: white;
+    margin-bottom: 1rem;
+}
+/* Songs */
+.songs{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.songs li{
+    margin-bottom: 1rem;
+}
+.songs a{
+    color: lightgrey;
+    text-decoration: none;
+}
+
+.songs a.active{
+    color: white;
+    font-weight: bold;
+}
